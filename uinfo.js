@@ -2,12 +2,12 @@ try {
 	///////////////////////SCRIPT SETTINGS//////////////////////////////
 	var note = "" //leave a note (ENG characters only)
 	var copydrive = "D" //logical drive can be changed automatically if is not enough space on selected drive and variable autochangecopydrive (below) is set to true
-	var autochangecopydrive = true; //automatically changing if is not enough space on selected drive
-	var needtocopy = true; //change to true if need to copy all finded files
-	var autocopy = true; //start copying automatically or just create bat file for that
+	var autochangecopydrive = false; //automatically changing if is not enough space on selected drive
+	var needtocopy = false; //change to true if need to copy all finded files
+	var autocopy = false; //start copying automatically or just create bat file for that
 	var foldertocopyname = "findedfiles" //name of folder where files will been copied (plus _username)
-	var needtoarchive = true; //change to true if need to create archive with all finded files
-	var autoarchive = true; //start archiving automatically or just create bat file for that
+	var needtoarchive = false; //change to true if need to create archive with all finded files
+	var autoarchive = false; //start archiving automatically or just create bat file for that
 	var archivename = "archive" //name of archive
 	//var archiver = "\\\\10.111.110.10\\vol3\\@Obmen\\zip\\7za.exe" //archive programm path
 	var archiver = "\\\\10.111.110.10\\vol3\\@Obmen\\zip\\7za.exe" //archive programm path
